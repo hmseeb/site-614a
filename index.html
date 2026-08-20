@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BadAaas | Temporary Fallback Verification Page</title>
+  <meta name="description" content="BadAaas provides emergency uptime monitoring, incident response, and status page hosting when your primary infrastructure fails. This is our temporary fallback verification page.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Bad<span>Aaas</span></a>
+      <nav class="nav" id="main-nav">
+        <a href="#services">Services</a>
+        <a href="#about">About This Page</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="BadAaas engineer monitoring server infrastructure in a data center during a fallback verification check" loading="eager">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow">Temporary Fallback Verification Page</p>
+        <h1>BadAaas</h1>
+        <p class="hero-tagline">When everything else goes down, this page proves we're still standing.</p>
+        <p class="hero-sub">
+          This is the last-resort status page for BadAaas — deployed automatically whenever our primary
+          dashboards, status APIs, and monitoring stack are unreachable. If you're reading this, our systems
+          detected an outage upstream and routed you here for verification that our team has been notified
+          and is responding.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:+18005550199" class="btn btn-primary">Call Now</a>
+          <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATUS BANNER -->
+    <section class="status-banner">
+      <div class="container status-inner">
+        <span class="status-dot" aria-hidden="true"></span>
+        <p><strong>Verification Status:</strong> This fallback page is live and serving correctly. Our on-call engineers have been paged and primary services are being restored.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2>What BadAaas Does</h2>
+          <p>Three core services keep your infrastructure honest, even when it's on fire.</p>
+        </div>
+        <div class="card-grid">
+
+          <article class="card">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/17489150/pexels-photo-17489150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Blue-lit server rack representing BadAaas real-time uptime monitoring infrastructure" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Uptime Monitoring</h3>
+              <p>Continuous, multi-region checks on every endpoint you own. We know your service is down before your customers do — and we page the right person immediately.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/32026165/pexels-photo-32026165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Illuminated command center screens representing BadAaas incident response operations" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Incident Response</h3>
+              <p>Automated escalation, on-call rotations, and human engineers who actually pick up the phone. When something breaks, BadAaas coordinates the fix from first alert to resolution.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/17489152/pexels-photo-17489152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Rack-mounted servers representing BadAaas status page hosting and fallback verification infrastructure" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Status Page &amp; Fallback Hosting</h3>
+              <p>A resilient, geographically distributed status page — like the one you're on right now — that stays online even when your primary stack doesn't.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / WHY THIS PAGE EXISTS -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="https://images.pexels.com/photos/17489160/pexels-photo-17489160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Illuminated server racks representing BadAaas backup data center used for fallback verification" loading="lazy">
+        </div>
+        <div class="about-text">
+          <h2>Why You're Seeing This Page</h2>
+          <p>
+            BadAaas maintains a chain of fallback verification pages precisely for moments like this one.
+            When our primary status dashboard, API, or monitoring endpoints become unreachable, our
+            infrastructure automatically routes traffic to this static, dependency-free page so that you
+            always have a reliable source of truth.
+          </p>
+          <p>
+            No databases, no third-party APIs, no single point of failure — just a simple confirmation that
+            BadAaas is aware of the issue and actively working on it. Once primary systems are verified
+            healthy again, traffic returns automatically to our normal status dashboard.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+          <p>Need to verify an incident, escalate a ticket, or just talk to a human? Reach the BadAaas team directly.</p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+18005550199">+1 (800) 555-0199</a>
+            </li>
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:support@badaaas.io">support@badaaas.io</a>
+            </li>
+            <li>
+              <span class="contact-label">Address</span>
+              <span>440 Resilience Way, Suite 500, Austin, TX 78701</span>
+            </li>
+          </ul>
+          <div class="hero-actions">
+            <a href="tel:+18005550199" class="btn btn-primary">Call Now</a>
+            <a href="mailto:support@badaaas.io" class="btn btn-secondary">Get a Quote</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Send Us a Message</h3>
+
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name" placeholder="Jane Doe">
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="jane@company.com">
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 123-4567">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell us what's going on..."></textarea>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> BadAaas. All rights reserved.</p>
+      <p class="footer-note">This is a temporary fallback verification page. Normal service resumes automatically.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
